@@ -18,7 +18,7 @@ metadata:
 spec:
   storageClassName: qbitorrent-storageclass
   capacity:
-    storage: "1Gi"
+    storage: "16Gi"
   accessModes:
   - ReadWriteOnce
   - ReadOnlyMany
