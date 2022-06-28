@@ -8,10 +8,10 @@ spec:
   type: LoadBalancer
   externalTrafficPolicy: Local
   ports:
-    - name: ldap
-      protocol: TCP
-      port: 389
-      targetPort: 3389
+    # - name: ldap
+    #   protocol: TCP
+    #   port: 389
+    #   targetPort: 3389
     - name: ldaps
       protocol: TCP
       port: 636
